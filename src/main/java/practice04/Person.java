@@ -10,7 +10,7 @@ public class Person {
     }
 
     public String introduce() {
-        return "My name is " + getName() + ". I am " + getAge() + " years old.";
+        return basicIntroduce();
     }
 
     public String getName() {
@@ -19,5 +19,8 @@ public class Person {
 
     public int getAge() {
         return age;
+    }
+    public String basicIntroduce(){
+        return "My name is " + getName() + ". I am " + getAge() + " years old.";
     }
 }
